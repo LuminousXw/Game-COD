@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Pendaftaran Member COD</title>
+</head>
+<body>
+  <h2>Form Pendaftaran Member COD</h2>
+  <form action="https://formspree.io/f/xvgaejak" method="POST">
+    <label>Nickname In-Game:<br>
+      <input type="text" name="nickname" required>
+    </label><br><br>
+
+    <label>Role:<br>
+      <select name="role" required>
+        <option value="Mage">Mage</option>
+        <option value="Archer">Archer</option>
+        <option value="Cavalry">Cavalry</option>
+        <option value="Tank">Tank</option>
+      </select>
+    </label><br><br>
+
+    <label>Spender:<br>
+      <select name="spender" required>
+        <option value="F2P">F2P</option>
+        <option value="Low Spender">Low Spender</option>
+        <option value="Whale">Whale</option>
+      </select>
+    </label><br><br>
+
+    <label>No WhatsApp:<br>
+      <input type="text" name="whatsapp" required placeholder="08xxxxxxx">
+    </label><br><br>
+
+    <button type="submit">Daftar</button>
+  </form>
+</body>
+</html>
